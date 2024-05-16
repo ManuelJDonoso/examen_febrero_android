@@ -7,4 +7,22 @@
     android:layout_height="match_parent"
     tools:context=".pantallaListado">
 
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="332dp"
+        android:layout_height="482dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_volver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="154dp"
+        android:text="volver"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
