@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
         cargarSpiner(sp_partido,R.array.array_partidos);
         listenerbtnListar();
         listenerbtnResgistro();
+        et_num_entrada.setText(2+"");
     }
 
 
